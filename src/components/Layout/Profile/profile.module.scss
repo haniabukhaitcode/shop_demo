@@ -1,0 +1,72 @@
+@import "../colors/Colors.module.scss";
+
+.ProfileContainer {
+  display: block;
+  position: absolute;
+  background: $white-color;
+  margin-top: 27px;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 280px;
+  margin-left: -120px;
+  visibility: visible;
+  width: 200px;
+  padding: 0;
+  border-radius: 10px;
+  z-index: 1;
+}
+.ProfileContainer.close {
+  display: none;
+}
+
+.ProfileList {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  visibility: visible;
+  width: 230px;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+.ProfileItem a {
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  color: black;
+  padding: 7px;
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom-style: none;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+.ProfileItem a:hover {
+  color: $secondary-color;
+}
+.navbarButton {
+  margin-block-start: -50px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 24px;
+  width: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbarButton:focus {
+  outline: none;
+}
+
+.spanLine {
+  width: 30px;
+  height: 2px;
+  background: $primary-color;
+}

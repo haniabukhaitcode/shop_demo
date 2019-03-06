@@ -1,0 +1,68 @@
+@import "../../../components/Layout/colors/Colors.module.scss";
+.containerNavbar {
+  position: fixed;
+  display: flex;
+  background: $white-color;
+  padding-top: 15px;
+  height: 70px;
+  box-shadow: 0px 0px 1px 0px rgba(80, 80, 80, 0.438);
+  z-index: 1;
+  width: 100%;
+}
+.navbarList {
+  display: inline-flex;
+  flex: 1;
+  list-style: none;
+}
+
+.navbaritemImage a {
+  color: $primary-color;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+.homepageIcone {
+  margin-left: 100px;
+  width: 55px;
+  height: 55px;
+  margin-top: -10px;
+  border: none;
+}
+
+.navbarItemLogin a {
+  color: $primary-color;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.navbarItemIcon {
+  background: $primary-color;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 20px;
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+  padding-top: 4.5px;
+  cursor: pointer;
+}
+.navbarItemBell {
+  color: $primary-color;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 20px;
+  padding: 3px 10px 3px 10px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.spacer {
+  flex: 2;
+}

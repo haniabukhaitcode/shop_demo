@@ -1,0 +1,210 @@
+@import "../../components/Layout/colors/Colors.module.scss";
+.formContainer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 150px;
+}
+.loginContainer {
+  position: absolute;
+  background: $white-color;
+  width: 360px;
+  height: 410px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 1px 1px 1px rgba(119, 119, 119, 0.1);
+  border-radius: 10px;
+}
+.headerContainer {
+  display: flex;
+
+  align-self: center;
+}
+.loginItemHeading {
+  position: relative;
+  color: $primary-color;
+  align-self: center;
+  flex: 1;
+  padding-top: 20px;
+}
+
+.loginList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.loginItem {
+  flex: 1;
+  padding: 0;
+  outline: none;
+  align-self: center;
+  margin-bottom: 15px;
+}
+
+.containerPassword {
+  display: flex;
+  height: 30px;
+}
+
+.loginHeading {
+  font-weight: 600;
+  font-size: 14px;
+  padding-top: 5px;
+
+  padding-bottom: 5px;
+  flex: 1;
+}
+
+.loginInput {
+  flex: 2;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  width: 300px;
+  height: 35px;
+  border: 1px solid rgba(128, 128, 128, 0.288);
+}
+
+.loginInput::placeholder {
+  background: none;
+  font-size: 15px;
+}
+.loginItemButton {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  outline: none;
+  justify-content: center;
+}
+
+.loginButton {
+  color: $primary-color;
+  font-weight: 600;
+  background: transparent;
+  align-self: center;
+  cursor: pointer;
+  width: 200px;
+  height: 30px;
+  border: none;
+  outline: none;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 0px $primary-color;
+}
+.loginButton:hover {
+  box-shadow: 0.1px 0.1px 3px 0.1px rgba(119, 119, 119, 0.685);
+  color: $secondary-color;
+}
+
+.loginButton:focus {
+  outline: none;
+}
+
+.loginButton:active {
+  outline: none;
+  box-shadow: 1px 1px 1px 1px rgba(119, 119, 119, 0.1);
+}
+
+.containerAnchor {
+  display: flex;
+  flex: 1;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.containerAnchor a {
+  flex: 1;
+  text-align: center;
+  padding-bottom: 15px;
+  text-decoration: none;
+}
+
+.errMessageEmail {
+  color: red;
+  font-size: 14px;
+  padding-left: 10px;
+  flex: 1;
+}
+.errMessagePassword {
+  color: red;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-top: 5px;
+  flex: 1;
+}
+
+.sectionIcons {
+  display: flex;
+  padding-bottom: 15px;
+}
+.loginWith {
+  padding-top: 15px;
+  flex: 1;
+  padding-left: 10px;
+}
+.checkboxContainer {
+  padding-left: 20px;
+  padding-top: 5px;
+  flex: 1;
+}
+.rememberMe {
+  margin-left: 10px;
+}
+.containerIcons {
+  display: flex;
+}
+.iconFacebook {
+  padding-top: 2.6px;
+  margin-right: 5px;
+  margin-top: 10px;
+  background: #3b5998;
+  font-size: 19px;
+  color: white;
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+.iconGmail {
+  padding-top: 2.6px;
+  margin-right: 5px;
+  margin-top: 10px;
+  background: #db4545;
+  font-size: 19px;
+  color: white;
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+.iconTwitter {
+  padding-top: 2.6px;
+  margin-right: 5px;
+  margin-top: 10px;
+  background: #04a9f4;
+  font-size: 19px;
+  color: white;
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+.registerlink {
+  background: $white-color;
+  color: $primary-color;
+  font-weight: 400;
+  align-self: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+.registerlink a {
+  text-decoration: none;
+}

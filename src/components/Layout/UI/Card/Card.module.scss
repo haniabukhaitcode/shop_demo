@@ -1,0 +1,89 @@
+@import "../../colors/Colors.module.scss";
+
+.outerCard {
+  border: none;
+  margin-bottom: 10px;
+}
+
+.innerCard {
+  margin: 10px;
+  border: none;
+  box-shadow: 0px 1px 1px 1px rgba(119, 119, 119, 0.1);
+  line-height: 1;
+}
+
+.containerImages {
+  max-height: 200px;
+}
+.priceTag {
+  position: absolute;
+  color: $primary-color;
+}
+
+.imageTag {
+  margin: 5px;
+  transform: rotate(100deg);
+  color: $primary-color;
+}
+
+.textBody {
+  height: 150px;
+  margin: 0;
+  padding: 0;
+}
+
+.cardTitle {
+  color: $primary-color;
+  font-size: 16px;
+  font-weight: 800;
+  height: 20px;
+  overflow: hidden;
+  background: white;
+  margin-bottom: 5px;
+  padding-left: 35%;
+}
+
+.cardTextParagraph {
+  margin: 0;
+  padding-left: 15px;
+  display: flex;
+}
+
+.cardTextRating {
+  margin: 0;
+  padding-left: 15px;
+  padding-top: 5px;
+  display: flex;
+}
+.commentShop {
+  border-top: 1px solid rgba(128, 128, 128, 0.452);
+  padding-top: 10px;
+  padding-left: 15px;
+  display: flex;
+  height: 40px;
+  color: $primary-color;
+}
+
+.textMuted {
+  padding-left: 0px;
+  padding-top: 3px;
+  flex: 2;
+}
+.textMuted div {
+  padding-left: 35px;
+}
+
+.containerRating {
+  padding-right: 15px;
+  color: $primary-color;
+}
+
+.cardTextRating small {
+  flex: 1;
+}
+
+.icon {
+  padding: 5px 5px 5px 0px;
+  font-size: 12px;
+  color: $primary-color;
+}

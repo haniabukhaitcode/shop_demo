@@ -1,0 +1,142 @@
+@import "../../components/Layout/colors/Colors.module.scss";
+.formContainer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 150px;
+}
+.registerContainer {
+  position: absolute;
+  background: $white-color;
+  width: 360px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 1px 1px 1px rgba(119, 119, 119, 0.1);
+  border-radius: 10px;
+}
+.headerContainer {
+  display: flex;
+  align-self: center;
+}
+
+.registerItemHeading {
+  position: relative;
+  color: $primary-color;
+  align-self: center;
+  flex: 1;
+  padding-top: 20px;
+}
+
+.registerList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.registerItem {
+  flex: 1;
+  padding: 0;
+  outline: none;
+  align-self: center;
+}
+.registerHeading {
+  font-weight: 600;
+  font-size: 14px;
+  padding-top: 5px;
+
+  padding-bottom: 5px;
+  flex: 1;
+}
+.registerInput {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  width: 300px;
+  height: 35px;
+  border: 1px solid rgba(128, 128, 128, 0.288);
+}
+
+.registerInput::placeholder {
+  background: none;
+  font-size: 15px;
+}
+
+.containerPassword {
+  display: flex;
+  height: 30px;
+}
+
+.registerItemButton {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  outline: none;
+  justify-content: center;
+}
+
+.registerButton {
+  color: $primary-color;
+  font-weight: 600;
+  background: transparent;
+  align-self: center;
+  cursor: pointer;
+  width: 200px;
+  height: 30px;
+  border: none;
+  outline: none;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 0px $primary-color;
+}
+
+.registerButton:hover {
+  box-shadow: 0.1px 0.1px 3px 0.1px rgba(119, 119, 119, 0.685);
+  color: $secondary-color;
+}
+
+.registerButton:focus {
+  outline: none;
+}
+
+.registerButton:active {
+  outline: none;
+  box-shadow: 1px 1px 1px 1px rgba(119, 119, 119, 0.1);
+}
+
+.containerAnchor {
+  display: flex;
+  flex: 1;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.containerAnchor a {
+  flex: 1;
+  text-align: center;
+  padding-bottom: 15px;
+  text-decoration: none;
+}
+
+.errMessage {
+  color: red;
+  font-size: 14px;
+  padding-left: 10px;
+  flex: 1;
+}
+
+.registerlink {
+  background: $white-color;
+  color: $primary-color;
+  font-weight: 400;
+  align-self: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+.registerlink a {
+  text-decoration: none;
+}

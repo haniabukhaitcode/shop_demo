@@ -1,0 +1,13 @@
+@import "../../../components/Layout/colors/Colors.module.scss";
+
+.container {
+  position: relative;
+  top: 150px;
+  background: $white-color;
+  height: 1500px;
+}
+
+.row {
+  margin-left: 9px;
+  margin-right: 0px;
+}
